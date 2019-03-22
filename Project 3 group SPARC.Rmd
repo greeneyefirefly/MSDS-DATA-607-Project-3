@@ -194,8 +194,8 @@ mongoFile$download("linkedin.csv")
 ```{r include=FALSE}
 # Loading the `.csv` files from local source's working directory after downloaded from MongoDB.
 tweet <- read_csv("tweet.csv")
-dataurlA <- read.csv("C:/Users/Deokinanan/Desktop/2019 -2021 CUNY SPS/SPRING 2019/DATA 607/Week 8/dataurlA.csv", header=TRUE, stringsAsFactors = FALSE)
-linkedin <- read.csv("C:/Users/Deokinanan/Desktop/2019 -2021 CUNY SPS/SPRING 2019/DATA 607/Week 8/linkedin.csv", header=TRUE, stringsAsFactors = FALSE)
+dataurlA <- read.csv("dataurlA.csv", header=TRUE, stringsAsFactors = FALSE)
+linkedin <- read.csv("linkedin.csv", header=TRUE, stringsAsFactors = FALSE)
 ```
 
 ***
