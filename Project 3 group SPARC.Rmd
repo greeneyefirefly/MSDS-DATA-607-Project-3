@@ -64,6 +64,31 @@ library(xml2)
 
 In this project, we breakdown how we built a database of influential people who are leading the charge in what the *Harvard Business Review* suggested to be the sexiest job field of the 21st century, that is Data Science. Because their skills and knowledge lead them to a successful data science career, with our database, we conducted a few data analysis to further discuss the many different paths that can lead you too to a lucrative, rewarding career as a data scientist. 
 
+> Face of the Leaders
+
+<style>
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 350px;        /* Viewport-relative units */
+    width: 70vw;
+}
+.container-fluid.main-container {
+    max-width: 99%;
+}
+
+iframe navbar navbar-fixed-bottom,  iframe div#pageheader, iframe  navbar .navbar-inner
+{
+dispaly: none;
+}
+
+</style>
+<iframe src="http://rpubs.com/Rajwantmishra/project_ppl" width="400" height="200"></iframe>
+
 ***
 
 #### Motivation 
@@ -288,34 +313,6 @@ kable(dtlinkedin) %>%
   scroll_box(width = "100%", height = "300px")
 ```
 ***
-
-> Face of the Leaders
-
-<style>
-body {
-    margin: 0;            /* Reset default margin */
-}
-iframe {
-    display: block;       /* iframes are inline by default */
-    background: #000;
-    border: none;         /* Reset default border */
-    height: 350px;        /* Viewport-relative units */
-    width: 70vw;
-}
-.container-fluid.main-container {
-    max-width: 99%;
-}
-
-iframe navbar navbar-fixed-bottom,  iframe div#pageheader, iframe  navbar .navbar-inner
-{
-dispaly: none;
-}
-
-</style>
-<iframe src="http://rpubs.com/Rajwantmishra/project_ppl" width="400" height="200"></iframe>
-
-***
-
 ### Results & Discussion {.tabset .tabset-fade .tabset-pills}
 ***
 #### Thought Leaders  
