@@ -498,7 +498,7 @@ The pioneers have been around for a while but most of the scientists today have 
 ***
 ### Conclusion
 
-In conclusion, we were able to build a table of more than <b> 50 of today's data science influencers from around the world </b>. *Some of these sources of inspiration include Ronald van Loon, Tripp Braden, Angela Bassa, Jenny Bryan* and many more! These experts are actively keeping up with all **new developments** in :  
+In conclusion, we were able to build a table of more than **50 of today's data science influencers from around the world**. *Some of these sources of inspiration include Ronald van Loon, Tripp Braden, Angela Bassa, Jenny Bryan* and many more! These experts are actively keeping up with all **new developments** in :  
 
 * artificial intelligence, 
 * digital transformation, 
