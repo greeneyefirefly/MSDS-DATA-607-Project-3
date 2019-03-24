@@ -289,9 +289,9 @@ mongoFile$download("linkedin.csv")
 ##### Our Data
 ```{r echo=FALSE}
 # Loading the `.csv` files from local source's working directory after downloaded from MongoDB.
-tweet <- read.csv("C:/Users/Deokinanan/Desktop/2019 -2021 CUNY SPS/SPRING 2019/DATA 607/Week 8/tweet.csv", header=TRUE, stringsAsFactors = FALSE)
-dataurlA <- read.csv("C:/Users/Deokinanan/Desktop/2019 -2021 CUNY SPS/SPRING 2019/DATA 607/Week 8/dataurlA.csv", header=TRUE, stringsAsFactors = FALSE)
-linkedin <- read.csv("C:/Users/Deokinanan/Desktop/2019 -2021 CUNY SPS/SPRING 2019/DATA 607/Week 8/linkedin.csv", header=TRUE, stringsAsFactors = FALSE)
+tweet <- read.csv("tweet.csv", header=TRUE, stringsAsFactors = FALSE)
+dataurlA <- read.csv("dataurlA.csv", header=TRUE, stringsAsFactors = FALSE)
+linkedin <- read.csv("linkedin.csv", header=TRUE, stringsAsFactors = FALSE)
 ```
 
 > Tweets Scrapped from Twitter Profiles.
